@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0617E0DC278A9EAB00FC7033 /* UIView+Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 0617E0D7278A9EAB00FC7033 /* UIView+Debug.m */; };
+		0617E0DD278A9EAB00FC7033 /* UIColor+Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 0617E0D8278A9EAB00FC7033 /* UIColor+Debug.m */; };
+		0617E0DE278A9EAB00FC7033 /* UIView+Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 0617E0D9278A9EAB00FC7033 /* UIView+Debug.h */; };
+		0617E0DF278A9EAB00FC7033 /* UIColor+Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 0617E0DA278A9EAB00FC7033 /* UIColor+Debug.h */; };
+		0617E0E0278A9EAB00FC7033 /* MCDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 0617E0DB278A9EAB00FC7033 /* MCDebug.h */; };
 		7100AADD261D513F00D92741 /* Picker+UIBlurEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7100AADC261D513F00D92741 /* Picker+UIBlurEffect.swift */; };
 		71034F1D273A6992007BBF60 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71034F1C273A6992007BBF60 /* Shadow.swift */; };
 		71034F1F273A6AEA007BBF60 /* Core+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71034F1E273A6AEA007BBF60 /* Core+CALayer.swift */; };
@@ -305,6 +310,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0617E0D7278A9EAB00FC7033 /* UIView+Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Debug.m"; sourceTree = "<group>"; };
+		0617E0D8278A9EAB00FC7033 /* UIColor+Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Debug.m"; sourceTree = "<group>"; };
+		0617E0D9278A9EAB00FC7033 /* UIView+Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Debug.h"; sourceTree = "<group>"; };
+		0617E0DA278A9EAB00FC7033 /* UIColor+Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Debug.h"; sourceTree = "<group>"; };
+		0617E0DB278A9EAB00FC7033 /* MCDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDebug.h; sourceTree = "<group>"; };
 		67A8466225AE30A60066BC51 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Core.strings; sourceTree = "<group>"; };
 		67A8466325AE30A60066BC51 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Picker.strings; sourceTree = "<group>"; };
 		67A8466425AE30A60066BC51 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Editor.strings; sourceTree = "<group>"; };
@@ -625,6 +635,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0617E0D6278A9EAB00FC7033 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				0617E0D7278A9EAB00FC7033 /* UIView+Debug.m */,
+				0617E0D8278A9EAB00FC7033 /* UIColor+Debug.m */,
+				0617E0D9278A9EAB00FC7033 /* UIView+Debug.h */,
+				0617E0DA278A9EAB00FC7033 /* UIColor+Debug.h */,
+				0617E0DB278A9EAB00FC7033 /* MCDebug.h */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
 		713C205725AD32D800BB0F66 /* Photo */ = {
 			isa = PBXGroup;
 			children = (
@@ -1115,6 +1137,7 @@
 			children = (
 				A0B22E94237AA1B3001F6066 /* Core */,
 				A016917F237A828500B8857B /* Picker */,
+				0617E0D6278A9EAB00FC7033 /* Debug */,
 				A50B20CC237AA22900A894A9 /* Editor */,
 				A0769993239636E10006AC9B /* Capture */,
 				A031CC57251B2EB600DECA44 /* Resources */,
@@ -1467,6 +1490,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A099CC71232F3BF70023CC3D /* AnyImageKit.h in Headers */,
+				0617E0DF278A9EAB00FC7033 /* UIColor+Debug.h in Headers */,
+				0617E0E0278A9EAB00FC7033 /* MCDebug.h in Headers */,
+				0617E0DE278A9EAB00FC7033 /* UIView+Debug.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1731,6 +1757,7 @@
 				A5EFE3F9237D3E060071F39F /* PhotoPreviewController+Editor.swift in Sources */,
 				A0769995239638630006AC9B /* ImageCaptureController.swift in Sources */,
 				A0B50C3823AA0AD2002C9799 /* CapturePreviewContentView.swift in Sources */,
+				0617E0DC278A9EAB00FC7033 /* UIView+Debug.m in Sources */,
 				713C206725AD32D800BB0F66 /* PhotoEditorContext.swift in Sources */,
 				A02F18762616BE0A00085EEA /* PickerTheme.swift in Sources */,
 				A0B22EA9237AA1B3001F6066 /* FileHelper.swift in Sources */,
@@ -1845,6 +1872,7 @@
 				713585F82738C42B00A70B9E /* CaptureTheme.swift in Sources */,
 				A50B211B237AA24300A894A9 /* EditorEditOptionsView.swift in Sources */,
 				A09D15A3239E0FEF00F3FE77 /* CaptureButton.swift in Sources */,
+				0617E0DD278A9EAB00FC7033 /* UIColor+Debug.m in Sources */,
 				A04EACCB2385250D004A9795 /* Core+Notification.swift in Sources */,
 				7142FF7625591DB0003FF44D /* DryDrawingView.swift in Sources */,
 				713E7D9C247BACE300BF6245 /* EditorCropOptionCell.swift in Sources */,
@@ -2166,10 +2194,11 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GAJJ4F72ZK;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -2183,7 +2212,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.14.3;
-				PRODUCT_BUNDLE_IDENTIFIER = org.AnyImageKit.AnyImageKit;
+				PRODUCT_BUNDLE_IDENTIFIER = org.AnyImageKit.AnyImageKit.YAMI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
@@ -2199,10 +2228,11 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GAJJ4F72ZK;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -2216,7 +2246,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.14.3;
-				PRODUCT_BUNDLE_IDENTIFIER = org.AnyImageKit.AnyImageKit;
+				PRODUCT_BUNDLE_IDENTIFIER = org.AnyImageKit.AnyImageKit.YAMI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
@@ -2232,7 +2262,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Example/Resources/Example.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GAJJ4F72ZK;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -2241,7 +2271,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.14.3;
-				PRODUCT_BUNDLE_IDENTIFIER = org.AnyImageKit.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = org.AnyImageKit.Example.YAMI;
 				PRODUCT_NAME = Example;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -2255,7 +2285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Example/Resources/Example.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GAJJ4F72ZK;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -2264,7 +2294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.14.3;
-				PRODUCT_BUNDLE_IDENTIFIER = org.AnyImageKit.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = org.AnyImageKit.Example.YAMI;
 				PRODUCT_NAME = Example;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
